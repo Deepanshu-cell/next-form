@@ -46,7 +46,6 @@ export function ProfileForm() {
     resolver: zodResolver(formSchema), // Apply the zodResolver
   });
 
-  console.log(form.formState.errors, "errors here");
 
   // handle submit function
   const onSubmit = async (formData) => {
